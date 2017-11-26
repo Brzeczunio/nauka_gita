@@ -1,6 +1,6 @@
 # Git Nauka
 
-Projekt do nauki GIT-a
+Projekt do nauki GIT-a.
 
 # Project Title
 
