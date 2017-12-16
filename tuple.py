@@ -73,3 +73,31 @@ x = {'A':1, 'B':2}
 
 for i in x.keys():
     print x[i]
+
+x = 12
+
+if x > 0:
+    print('wieksze')
+elif x < 0:
+    print('mniejsze')
+else:
+    print('rowne')
+
+def fib(n):
+    a,b=0,1
+    while a < n:
+        print a,
+        a, b = b, a+b
+
+
+
+
+def suma(a,*b,**c):
+    for e in b:
+        print c
+        a = a + e
+    return a
+
+b = suma(1,2,3,5,6, A=3)
+
+print(b)
