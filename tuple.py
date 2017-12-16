@@ -68,3 +68,8 @@ for x in range(11,18):
 
 
 print 12
+
+x = {'A':1, 'B':2}
+
+for i in x.keys():
+    print x[i]
